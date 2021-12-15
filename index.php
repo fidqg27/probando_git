@@ -40,20 +40,7 @@
     }
     else
     {
-      echo <<<_END
-      <br><br><br><br><br><br><br><br><br>
-      <h1 align="center" style=>Mis Notas</h1>
-      <h2 align="center" style=>Iniciar sesion</h2>
-      <form align="center" action="index.php" method="post"><pre>
-      <label for="username">Usuario</label>
-      <input placeholder="correo@example.com" type="text" name="username" id="username" required>
-      <label for="password">  Password</label> 
-      <input TYPE="password" placeholder="Password" name="password" type="text" id="password" required>
-      <input type="submit" value="INGRESAR"></form><form align="center" action="signup.php" method="post">
-      <input type="submit" value="Registrarse"> 
-      </form>
-      _END;
-    }
+
 
     $conexion->close(); 
 
