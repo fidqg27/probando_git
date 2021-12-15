@@ -106,10 +106,7 @@
         <input type="hidden" name="id_codigo" value='$r1'>
         <input type="submit" name="Editar" value="Editar">
         </form>
-        <form method="post" action="editarnota.php">
-        <input type="hidden" name="id_codigo" value='$r5'>
-        <input type="submit" name="Editar" value="Editar">
-        </form>
+
 
         
         _END;
