@@ -53,4 +53,5 @@
  = stripslashes($string);
         return $conexion->real_escape_string($string);
       }  
+      
 ?>
